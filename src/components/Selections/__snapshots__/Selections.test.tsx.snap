@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly Selections when game is finished with some selections. 1`] = `
+<div
+  className="Selections"
+>
+  <div
+    className="Selections__value-container"
+    key="ayhan"
+  >
+    <div
+      className="Selections__value"
+    >
+      ayhan
+    </div>
+     -&gt; 
+  </div>
+  <div
+    className="Selections__value-container"
+    key="nilay"
+  >
+    <div
+      className="Selections__value"
+    >
+      nilay
+    </div>
+     -&gt; 
+  </div>
+  <div
+    className="Selections__value-container"
+    key="yılmaz"
+  >
+    <div
+      className="Selections__value"
+    >
+      yılmaz
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders correctly Selections when game is finished without any selection. 1`] = `
+<div
+  className="Selections"
+>
+  Hiç seçim yapılamadı...
+</div>
+`;
+
+exports[`renders correctly Selections when game is not started. 1`] = `<Fragment />`;
+
+exports[`renders correctly Selections when game is started. 1`] = `<Fragment />`;

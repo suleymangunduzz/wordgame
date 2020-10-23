@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly Result Panel when game is finihed with names 1`] = `
+<div>
+  lale
+</div>
+`;
+
+exports[`renders correctly Result Panel when game is finished 1`] = `
+<div
+  className="ResultPanel"
+>
+  Oyun Bitti
+</div>
+`;
+
+exports[`renders correctly Result Panel when game is playing but there is no name 1`] = `
+<div>
+  ......
+</div>
+`;

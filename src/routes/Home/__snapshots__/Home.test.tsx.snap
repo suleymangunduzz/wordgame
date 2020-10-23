@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="Home"
+>
+  <h1>
+    Kelime Oyunu
+  </h1>
+  <div
+    className="Home__play-area"
+  >
+    <ResultPanel
+      gameStatus="NOT_STARTED"
+      selectedNames={Array []}
+    />
+    <PlayerInfo
+      gameStatus="NOT_STARTED"
+      nextPlayer=""
+    />
+    <TimePanel
+      gameStatus="NOT_STARTED"
+      timeLeft={8}
+    />
+  </div>
+  <Button
+    disabled={false}
+    onClick={[Function]}
+  >
+    Oyuna Başla
+  </Button>
+  <Selections
+    gameStatus="NOT_STARTED"
+    selectedNames={Array []}
+  />
+</div>
+`;

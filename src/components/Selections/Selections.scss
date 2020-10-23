@@ -1,0 +1,19 @@
+.Selections {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+
+  &__value-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__value {
+    padding: 0.3rem;
+    border: 1px solid;
+    margin: 0.5rem 0 0 0.3rem;
+    border-radius: 0.2rem;
+  }
+}

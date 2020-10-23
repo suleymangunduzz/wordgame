@@ -1,0 +1,26 @@
+@import '../../styles/index';
+
+.Home {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__play-area {
+    position: relative;
+    display: flex;
+    min-width: 20rem;
+    min-height: 10rem;
+    align-items: center;
+    justify-content: center;
+    border: 0.2rem solid rgb(7, 6, 6);
+    margin-bottom: 2rem;
+    border-radius: 1.2rem;
+  }
+
+  &__winner {
+    color: $green-color;
+  }
+}

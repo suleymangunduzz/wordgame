@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly Player Info when game is finished with machine. 1`] = `<Fragment />`;
+
+exports[`renders correctly Player Info when game is finished with user. 1`] = `<Fragment />`;
+
+exports[`renders correctly Player Info when game is not started yet and player is machine. 1`] = `
+<div
+  className="PlayerInfo"
+>
+  Oynama sırası: MACHINE
+</div>
+`;
+
+exports[`renders correctly Player Info when game is not started yet and player is user. 1`] = `
+<div
+  className="PlayerInfo"
+>
+  Oynama sırası: USER
+</div>
+`;
+
+exports[`renders correctly Player Info when game is playing with machine. 1`] = `
+<div
+  className="PlayerInfo"
+>
+  Oynama sırası: MACHINE
+</div>
+`;
+
+exports[`renders correctly Player Info when game is playing with user. 1`] = `
+<div
+  className="PlayerInfo"
+>
+  Oynama sırası: USER
+</div>
+`;

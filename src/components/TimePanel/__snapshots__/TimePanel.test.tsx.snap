@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly Time Panel when game is finished 1`] = `
+<div
+  className="TimePanel"
+>
+   
+  --
+   
+</div>
+`;
+
+exports[`renders correctly Time Panel when game is not started 1`] = `
+<div
+  className="TimePanel"
+>
+   
+  --
+   
+</div>
+`;
+
+exports[`renders correctly Time Panel with time value 1`] = `
+<div
+  className="TimePanel"
+>
+   
+  Kalan Süre: 3
+   
+</div>
+`;
